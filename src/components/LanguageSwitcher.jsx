@@ -7,17 +7,18 @@ const LanguageSwitcher = () => {
     <div>
       <select
         className="w-32 rounded-sm p-1 text-orange-600 focus:outline-none"
-        onChange={async (lng) => await setLanguage(lng.target.value)}
+        onChange={async (lang) => await setLanguage(lang.target.value)}
         name="lang"
         id="lang"
       >
-        {locales.map((lng) => (
+        {locales.map((lang) => (
           <option
-            value={lng}
-            onClick={async () => await setLanguage(lng)}
+            key={lang}
+            value={lang}
+            onClick={async () => await setLanguage(lang)}
             className="p-1 px-4 mx-1 bg-white"
           >
-            {lng}
+            {lang}
           </option>
         ))}
       </select>
