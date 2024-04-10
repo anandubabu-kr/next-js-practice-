@@ -2,13 +2,11 @@ import React from "react";
 import useTranslation from "next-translate/useTranslation";
 
 const DynamicPage = () => {
-  const { t, lang } = useTranslation("test");
+  const { t } = useTranslation("test");
   return (
     <div>
-      <h1>Dynamic Page</h1>
-      <p>
-        {t("lang")} is in "{lang}"
-      </p>
+      <h1 className=" text-2xl">{t("dynamic")}</h1>
+      <p>{t("description")}</p>
     </div>
   );
 };

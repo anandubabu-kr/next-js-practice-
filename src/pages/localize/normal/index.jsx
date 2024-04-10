@@ -2,11 +2,11 @@ import React from "react";
 import useTranslation from "next-translate/useTranslation";
 
 const Normal = () => {
-  const { t, lang } = useTranslation("test");
+  const { t } = useTranslation("test");
   return (
     <div>
-      <h1>Normal</h1>
-      {t("lang")} is in "{lang}"
+      <h3 className=" text-2xl">{t("normal")}</h3>
+      {t("description")}
     </div>
   );
 };

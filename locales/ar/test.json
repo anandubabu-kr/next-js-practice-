@@ -1,3 +1,7 @@
 {
-  "lang": "Arabi"
+  "description": "هذا هو التدقيق اللغوي، والتمتع",
+  "dynamic": "Dynamic page",
+  "normal": "الصفحة العادية",
+  "home": "محلية - صفحة استقبال",
+  "localize": "محلية"
 }

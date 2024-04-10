@@ -1,3 +1,7 @@
 {
-  "lang": "Spanish"
+  "description": "Esta es la comprobación de la función de conmutación del idioma, disfrutar",
+  "dynamic": "Página dinámica",
+  "normal": "Página normal",
+  "home": "Localizar - Página principal",
+  "localize": "Localización"
 }

@@ -1,3 +1,7 @@
 {
-  "lang": "English"
+  "description": "This is the language switching feature checking, enjoy",
+  "dynamic": "Dynamic page",
+  "normal": "Normal Page",
+  "home": "Localize - Home Page",
+  "localize": "Localize"
 }

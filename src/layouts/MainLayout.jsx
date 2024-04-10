@@ -8,9 +8,7 @@ const MainLayout = ({ children }) => {
 
   return (
     <div>
-      <div className=" bg-orange-400 flex justify-between py-1 px-4">
-        <p> Selected language : {lang}</p>
-
+      <div className=" bg-orange-500 flex justify-end py-1 px-4 text-white">
         <LanguageSwitcher />
       </div>
       <div className="flex">
